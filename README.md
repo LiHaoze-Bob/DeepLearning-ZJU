@@ -21,7 +21,9 @@
 本仓库用于整理课程实验中的 Notebook、关键运行结果与竞赛提交文件。
 
 > [!NOTE]
-> Kaggle 实验建议直接在竞赛 Notebook 环境中运行；MNIST 实验可在 LMCC、本地 Jupyter 或 VS Code 中运行。原始数据不纳入版本控制，获取入口见下表。
+> Kaggle 实验建议直接在竞赛 Notebook 环境中运行；所有实验可在 [LMCC](http://122.226.162.86:8787/courses/57deb3d9-fd3c-4864-ac1c-daacb378defa)、本地 Jupyter 或 VS Code 中运行。原始数据不纳入版本控制，获取入口见下表。
+
+- `LMCC`为浙大平台，若无权访问课程页可以使用：1.本地或其他在线Jupyter环境 2.在`实验一览`中找到数据的下载源，或者在notebook中找到下载链接
 
 ## 实验一览
 

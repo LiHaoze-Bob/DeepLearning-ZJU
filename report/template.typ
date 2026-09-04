@@ -6,6 +6,7 @@
 // (optional) codly
 #import "@preview/codly:1.3.0": *
 #import "@preview/codly-languages:0.1.1": *
+
 #let codly-filename(title) = codly(header: align(center)[*#title*])
 
 #let state-course = state("course", none)

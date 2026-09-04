@@ -1,51 +1,35 @@
-# macOS
-.DS_Store
+# 默认忽略所有文件
+*
 
-# Editors and notebooks
-.vscode/
-.idea/
-*.code-workspace
+# 允许 Git 继续遍历目录
+!*/
+
+# 仓库说明
+!.gitignore
+!README.md
+!LICENSE
+
+# Notebook 与代码
+!*.ipynb
+!*.py
+
+# 报告与素材
+!*.typ
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
+
+# 只保留提交结果，不保留训练数据
+!submit.csv
+!submission.csv
+!sample.csv
+
+# 即使扩展名符合，也始终排除这些目录
 .ipynb_checkpoints/
-
-# Python environments and caches
+__pycache__/
 .venv/
 venv/
 env/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Local configuration and credentials
-.env
-.env.*
-!.env.example
-kaggle.json
-
-# Downloaded datasets and generated caches
-lab1-1/train.csv
-lab1-1/test.csv
-lab1-1/sampleSubmission.csv
-lab1-1/sample_submission.csv
-lab1-2/data/
-lab2-1/train.csv
-lab2-1/test.csv
-lab2-1/X_train
-lab2-1/X_test
-lab2-1/Y_train
-
-# Model artifacts
-*.npy
-*.npz
-*.pt
-*.pth
-*.ckpt
-*.joblib
-*.pkl
-
-# Typst and temporary files
-.typst-cache/
-*.log
-*.tmp
-*~
+data/
+asl_data/

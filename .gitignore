@@ -25,11 +25,23 @@
 !submission.csv
 !sample.csv
 
-# 即使扩展名符合，也始终排除这些目录
+# 即使扩展名符合，也始终排除这些目录和产物
+.DS_Store
 .ipynb_checkpoints/
 __pycache__/
+.cache/
 .venv/
 venv/
 env/
 data/
 asl_data/
+outputs/
+checkpoints/
+
+# 模型、缓存数据与压缩包只保留在本地
+*.pyc
+*.pth
+*.pt
+*.npy
+*.tgz
+*.zip
